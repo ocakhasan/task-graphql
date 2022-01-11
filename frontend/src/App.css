@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.toggle {
+    padding:1rem 2rem;
+    border:1px solid black;
+    margin-top: 2rem;
+}
+
+.heroes-div {
+    /*border:1px solid black;*/
+    margin: 2rem 0;
+    flex: 2;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-div {
+    border:1px solid black;
+    width: 200px;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.graphiql-div {
+    flex: 7;
+    display: flex;
+}
